@@ -1,6 +1,4 @@
-# -- START OF YOUR CODERUNNER SUBMISSION CODE
 
-# INCLUDE MODULES
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 
@@ -86,10 +84,7 @@ def Decrypt(key: str, iv: str, data: str) -> str:
     # 5) Convert the plaintext bytes to UTF-8 string
     return plaintext.decode("utf-8")
 
-# -- END OF YOUR CODERUNNER SUBMISSION CODE
-
-# ----------------------------------------------------------------------
-# Example local test (NOT in CodeRunner):
+# Example local test 
 if __name__ == "__main__":
     key  = "2b7e151628aed2a6abf7158809cf4f3c"
     iv   = "000102030405060708090a0b0c0d0e0f"
