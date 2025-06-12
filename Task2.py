@@ -1,7 +1,4 @@
-# -- START OF YOUR CODERUNNER SUBMISSION CODE
-# INCLUDE MODULES
-# (No special cryptography modules needed for the attack itself, only XOR operations.)
-# INCLUDE HELPER FUNCTIONS YOU IMPLEMENT
+
 
 def attackAESMode(plaintext1: str, ciphertext1: bytes, plaintext2: str) -> bytes:
     """
@@ -26,11 +23,10 @@ def attackAESMode(plaintext1: str, ciphertext1: bytes, plaintext2: str) -> bytes
 
     # 4) Return the newly crafted ciphertext for plaintext2.
     return ciphertext2
-# -- END OF YOUR CODERUNNER SUBMISSION CODE
 
 
 # -----------------------------------------------------------------------------
-# You can test your code in your system (NOT in your CodeRunner submission) as follows:
+# You can test your code in your system 
 if __name__ == "__main__":
     pt1 = (
         "This is your General. Hold position until further orders. "
