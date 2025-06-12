@@ -1,6 +1,4 @@
-# -- START OF YOUR CODERUNNER SUBMISSION CODE
 
-# INCLUDE MODULES
 import hashlib
 import os
 
@@ -74,8 +72,6 @@ def myAttack() -> str:
     # If we haven't found any collision in 'max_attempts', we claim "YES"
     # though in reality, the hash is still only 32 bits, so a collision is likely if we try long enough.
     return "YES"
-
-# -- END OF YOUR CODERUNNER SUBMISSION CODE
 
 
 # -------------------------------------------------------------------------
